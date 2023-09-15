@@ -12,7 +12,7 @@ As you can see from the code you have to run an XAMPP localhost and MariaDB(Free
 
 Then when you run the Server companies can create accounts and put their offers. 
 Simple! 
-Nothing special just Basic HTML, CSS, JS 
+Nothing special just Basic HTML, CSS, JS, PHP 
 
 
 Last Update: Date 15-09-2023 
