@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "company.dtd">
+<company>
+    <company_name>Trabakoulgas</company_name>
+    <tax_id>123456789</tax_id>
+    <location>
+        <street>Σφακίον </street>
+        <street_number>62</street_number>
+        <postal_code>12131</postal_code>
+        <region>Δυτικού Τομέα Αθηνών</region>
+        <city>Περιστερίου</city>
+    </location>
+    <offers>
+        <offer active="false">
+            <fuel_id>2</fuel_id>
+            <fuel_type>Βενζίνη Super</fuel_type>
+            <end_date>2023-05-02</end_date>
+            <price>0.02</price>
+        </offer>
+        <offer active="true">
+            <fuel_id>1</fuel_id>
+            <fuel_type>Βενζίνη Απλή</fuel_type>
+            <end_date>2023-07-13</end_date>
+            <price>1.49</price>
+        </offer>
+        <offer active="true">
+            <fuel_id>4</fuel_id>
+            <fuel_type>Πετρέλαιο Κίνησης Super</fuel_type>
+            <end_date>2023-06-23</end_date>
+            <price>2.25</price>
+        </offer>
+        <offer active="true">
+            <fuel_id>5</fuel_id>
+            <fuel_type>Πετρέλαιο Θέρμανσης</fuel_type>
+            <end_date>2023-07-14</end_date>
+            <price>1.36</price>
+        </offer>
+        <offer active="true">
+            <fuel_id>3</fuel_id>
+            <fuel_type>Πετρέλαιο Κίνησης</fuel_type>
+            <end_date>2023-05-27</end_date>
+            <price>1.00</price>
+        </offer>
+    </offers>
+    <global_offers>
+        <global_offer>
+            <fuel_name>Βενζίνη Απλή</fuel_name>
+            <minPrice>1.49</minPrice>
+            <maxPrice>1.98</maxPrice>
+            <avgPrice>1.78</avgPrice>
+        </global_offer>
+        <global_offer>
+            <fuel_name>Βενζίνη Super</fuel_name>
+            <minPrice>0.02</minPrice>
+            <maxPrice>2.25</maxPrice>
+            <avgPrice>1.73</avgPrice>
+        </global_offer>
+        <global_offer>
+            <fuel_name>Πετρέλαιο Κίνησης</fuel_name>
+            <minPrice>1.00</minPrice>
+            <maxPrice>1.55</maxPrice>
+            <avgPrice>1.39</avgPrice>
+        </global_offer>
+        <global_offer>
+            <fuel_name>Πετρέλαιο Κίνησης Super</fuel_name>
+            <minPrice>1.33</minPrice>
+            <maxPrice>2.25</maxPrice>
+            <avgPrice>1.73</avgPrice>
+        </global_offer>
+        <global_offer>
+            <fuel_name>Πετρέλαιο Θέρμανσης</fuel_name>
+            <minPrice>0.85</minPrice>
+            <maxPrice>1.36</maxPrice>
+            <avgPrice>1.00</avgPrice>
+        </global_offer>
+    </global_offers>
+</company>

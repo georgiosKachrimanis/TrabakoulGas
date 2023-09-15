@@ -1,0 +1,23 @@
+<!ELEMENT company (company_name, tax_id, location, offers, global_offers)>
+        <!ELEMENT company_name (#PCDATA)>
+        <!ELEMENT tax_id (#PCDATA)>
+        <!ELEMENT location (street, street_number, postal_code, region, city)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT street_number (#PCDATA)>
+        <!ELEMENT postal_code (#PCDATA)>
+        <!ELEMENT region (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT offers (offer*)>
+        <!ELEMENT offer (fuel_id, fuel_type, end_date, price)>
+        <!ATTLIST offer active CDATA #REQUIRED>
+        <!ELEMENT fuel_id (#PCDATA)>
+        <!ELEMENT fuel_type (#PCDATA)>
+        <!ELEMENT end_date (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT global_offers (global_offer*)>
+        <!ELEMENT global_offer (fuel_name, minPrice, maxPrice, avgPrice)>
+        <!ELEMENT fuel_name (#PCDATA)>
+        <!ELEMENT minPrice (#PCDATA)>
+        <!ELEMENT maxPrice (#PCDATA)>
+        <!ELEMENT avgPrice (#PCDATA)>
+

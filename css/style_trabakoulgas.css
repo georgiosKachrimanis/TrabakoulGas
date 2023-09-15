@@ -1,0 +1,253 @@
+/*Use the available space of screen*/
+html{
+    height: 100%;
+}
+
+/*Basic body parameters*/
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue !important;
+    width: 100%;
+}
+
+/*Header*/
+header{
+    background-color: rgba(0,0,0,0.2) !important;
+    width: available;
+    height: auto;
+    flex-shrink: 0
+}
+
+/*Footer*/
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: medium;
+    background-color: rgba(0,0,0,0.2) !important;
+    width: 100%;
+}
+
+/*Font*/
+*{
+    font-family: Algerian, "Times New Roman", Times, serif ;
+}
+
+
+/* Nav bar*/
+nav {
+    font-size: xx-large;
+    font-palette: dark;
+}
+
+
+/*Special attributes of anchor tag*/
+a{
+    text-decoration: none;
+}
+
+
+.registered_offers {
+    font-size: xx-large;
+}
+
+/*Active links*/
+.active{
+    font-size: 38px !important;
+    text-decoration: underline !important;
+}
+
+/*Hover over the nav-links*/
+.nav-link:hover {
+color: whitesmoke !important;
+}
+
+/* Navigation bar links*/
+.nav-link{
+  /*  font-family: Georgia, "Times New Roman", Times, serif ; ;*/
+    color: midnightblue !important;
+    padding: 1%;
+}
+
+/**/
+.form-group{
+    font-size: 45px !important;
+}
+
+.button1{
+    font-size: 26px;
+    background: transparent;
+    border: cadetblue;
+    color: midnightblue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-radius: 70px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    transition: all 0.3s ease 0s;
+    border: 2px solid;
+}
+
+.button1:hover {
+    color: whitesmoke !important;
+    background: dimgray;
+    border: 2px solid whitesmoke;
+}
+
+.btn-lg:hover{
+    color: whitesmoke !important;
+}
+
+.password{
+    border:black;
+    background-color: gray !important;
+}
+
+.custom-select{
+    font-size: 18px;
+    background: transparent;
+    border: black;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-radius: 10%;
+    letter-spacing: 1px;
+    line-height: 30px;
+    transition: all 0.3s ease 0s;
+    border: 2px solid;
+}
+
+.announcement{
+    max-height: 65vh;
+    overflow: scroll ;
+    border: 12px slateblue;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/*No Bullet class for lists*/
+.noBullet {
+    list-style-type: none;
+}
+
+/*Inline text for headers*/
+.inLine {
+    display:inline;
+}
+
+#log_on{
+    font-size: small;
+}
+
+#loginEmail, #passWord{
+    font-size: small;
+}
+
+/*Page title*/
+#title{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#results {
+    padding-top: 5%;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: lightgrey;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pop-up{
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#announcement_title {
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+#announcement_date {
+    font-size: 20px;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+#announcement_text {
+    font-size: 18px;
+    width: 75%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.announcement-text {
+    width: 80%;
+    margin: 0 10%;
+}
+
+ #results {
+     max-height: 100px;
+     overflow-y: auto;
+ }
+
+ .xml{
+     align-items: center;
+     text-align: center;
+     display: table-column;
+     max-width: 50%; /* adjust to the width you want */
+     margin-top: 1%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .xml_table{
+     font-size: large;
+     align-items: center;
+     text-align: center;
+ }
+ table td, table th{
+     padding:10px 20px ;
+ }
