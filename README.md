@@ -1,22 +1,18 @@
-# Ergasia 2
-## First Draft
-This is an ongoing project for my University course of Telecommunications class.
-The idea is at the end of the semester to have a functional website. 
+# Web Platform for Gas Stations.
+## What is this about?
+*Disclaimer*
+This web page was a school project in the last year of my 4 years studies in Computer Science. Unfortunately, because of my RL situation (Family, Full time work  etc.) the code of the page is all over the place. 
 
-The website will be a platform for gas station all over Greece offering discounts on various types of gasoline for 
-as sort period of time.
+So, the idea is to create a web platform for Gas Stations to add their offers (the lowest price Petrol, Gas etc). 
 
-The project will start with a basic HTML CSS design and more functionality will be added using JS, PHP XML etc.
+## How it works
+As you can see from the code you have to run an XAMPP localhost and MariaDB(Free tools).
 
-The first completed draft of the paper is done 22-01-2023.
-It contains basic concepts of creating a web page with HTML and CSS.
+*I will provide the tables structure of the DB after I clean up the code. The Idea is to automate this procedure.*
 
-## Second Draft
-There is added functionality with the use of php and DB. 
-Now we can add users which in return can create announcements and offers for fuels.
-The code is a mess and will have to re-write everything when I have more time as it is a nice project to show
-good practice of web development.
+Then when you run the Server companies can create accounts and put their offers. 
+Simple! 
+Nothing special just Basic HTML, CSS, JS 
 
 
-## Third Draft
-Some more functionality added to create xml files, for superusers.
+Last Update: Date 15-09-2023 
